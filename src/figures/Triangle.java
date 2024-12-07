@@ -9,10 +9,11 @@ public class Triangle {
         this.a = a;
         this.b = b;
         this.c = c;
+    }
 
+    public int perimeter()  {
+        return a + b + c;
     }
-    public static void main(String[] args) {
-        Triangle triangle
-    }
+
 
 }
